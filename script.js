@@ -1,0 +1,104 @@
+$("#pic1").hide();
+$("#pic2").hide();
+$("#pic3").hide();
+$("#pic4").hide();
+$("#pic5").hide();
+$("#pic6").hide();
+$("#pic7").hide();
+$("#gif1").hide();
+$("#gif2").hide();
+$("#gif3").hide();
+$("#gif4").hide();
+$("#back").hide();
+$("#back2").hide();
+$("#hall2").hide();
+$("#last").hide();
+$("#start").click(function(){
+    $("#start").hide();
+    $("#Header").hide();
+    $("body").css("background","url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zCy7rIiNIKNdw-C45WqGCrV51ASrGoteYscJyORONjOmQQfLzQ)");
+    $("body").css("background-repeat","no-repeat");
+    $("body").css("background-size","100%");
+    $("#pic2").show();
+    $("#pic3").show();
+    $("#pic4").show();
+});
+$("#pic2").click(function(){
+     $("body").css("background","black");
+     $("#pic2").hide();
+     $("#pic3").hide();
+     $("#pic4").hide();
+     $("#gif1").show();
+     $("#back").show();
+});
+$("#pic3").click(function(){
+    $("#pic2").hide();
+    $("#pic3").hide();
+    $("#pic4").hide();
+    $("#gif2").show();
+    $("body").css("background","black");
+    $("#back").show();
+});
+$("#pic4").click(function(){
+    $("body").css("background","url(https://i.imgur.com/mG4BzqD.gif)");
+    $("body").css("background-repeat","no-repeat");
+    $("body").css("background-size","100%");
+    $("#pic2").hide();
+    $("#pic3").hide();
+    $("#pic4").hide();
+    $("#pic5").show();
+    $("#pic6").show();
+    $("#pic7").show();
+});
+$("#pic5").click(function(){
+     $("body").css("background","black");
+     $("#pic5").hide();
+     $("#pic6").hide();
+     $("#pic7").hide();
+     $("#gif3").show();
+     $("#back2").show();
+});
+$("#pic6").click(function(){
+    $("body").css("background","url(https://i.pinimg.com/originals/59/89/0c/59890c8024f5691d88af99aeb5ce263e.jpg)");
+    $("body").css("background-repeat","no-repeat");
+    $("body").css("background-size","100%");
+    $("#pic5").hide();
+    $("#pic6").hide();
+    $("#pic7").hide();
+    $("#last").show();
+    
+});
+$("#pic7").click(function(){
+     $("body").css("background","black");
+     $("#pic5").hide();
+     $("#pic6").hide();
+     $("#pic7").hide();
+     $("#gif4").show();
+     $("#back2").show();
+});
+$("#back").click(function(){
+    $("body").css("background","url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zCy7rIiNIKNdw-C45WqGCrV51ASrGoteYscJyORONjOmQQfLzQ)");
+    $("body").css("background-repeat","no-repeat");
+    $("body").css("background-size","100%");
+    $("#gif1").hide();
+    $("#gif2").hide();
+    $("#gif3").hide();
+    $("#back").hide();
+    $("#pic2").show();
+    $("#pic3").show();
+    $("#pic4").show();
+});
+$("#back2").click(function(){
+    $("body").css("background","url(https://i.imgur.com/mG4BzqD.gif)");
+    $("body").css("background-repeat","no-repeat");
+    $("body").css("background-size","100%");
+    $("#gif1").hide();
+    $("#gif2").hide();
+    $("#gif3").hide();
+    $("#gif4").hide();
+    $("#back2").hide();
+    $("#pic5").show();
+    $("#pic6").show();
+    $("#pic7").show();
+});
+$("audio").get(0).play();
