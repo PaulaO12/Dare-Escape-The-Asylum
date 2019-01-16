@@ -1,0 +1,70 @@
+Body{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    margin-top:250px;
+}
+#start{
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+    font-size:20px;
+}
+#images{
+    display:flex;
+    justify-content:space-around;
+}
+#pic2{
+    width:400px;
+    height:500px;
+}
+#pic3{
+  width:400px;
+    height:500px;
+}
+#pic4{
+ width:400px;
+    height:500px;
+ }
+#pic5{
+    width:400px;
+    height:500px;
+}
+#pic6{
+  width:400px;
+    height:500px;
+}
+#pic7{
+ width:400px;
+    height:500px;
+ }
+#last{
+    font-size:100px;
+    color:red;
+    font-family: 'Sedgwick Ave Display', cursive;
+ }
+body{
+    background:url("http://37.media.tumblr.com/tumblr_md6j2whahQ1rjhlojo1_500.gif");
+    background-repeat:no-repeat;
+    background-size:100%;
+    }
+#start{
+    margin-top:500px;
+    }
+#gif1{
+    width: 550px;
+    height:550px;
+}
+#gif2{
+    width: 550px;
+    height:550px;
+}
+#gif3{
+    width: 550px;
+    height:550px;
+}
+#gif4{
+    width: 550px;
+    height:550px;
+}
